@@ -1,0 +1,12 @@
+This dataset contains information about tuberculosis in various groups of sample patients.
+The original data can be found in /OriginalData/tb.csv, it was first downloaded on 13th of October
+
+
+Variables:
+iso2 - information about patient's country coded in ISO 3166-1 alpha-2 standard
+year - information about the year of examination
+new_sp - information about new sample patient (no sex or age disclosed)
+new_sp_mu - information about new sample patient that is male (no age known)
+new_sp_fu - information about new sample patient that is female (no age known)
+new_sp_m04... new_sp_m65 - information about new sample patient that is male (with various age groups)
+new_sp_f04... new_sp_f 65 - information about new sample patient that is female (with various age groups)

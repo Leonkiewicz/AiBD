@@ -1,0 +1,29 @@
+# ../AnalysisData/tb_but_tidy.csv
+This file is a tidied up and slightly modified version of the original data. Firstly it uses a more concise naming convention.
+All NaN rows, as well as 'new_sp', 'new_sp_m014' and 'new_sp_f014' have been dropped out. 
+Then three new columns have been added: sex, age and cases. 
+
+Variables:
+iso2 - information about patient's country coded in ISO 3166-1 alpha-2 standard
+year - information about the year of examination
+sex - sample patient's sex
+age - sample patient's age
+cases - amount of cases in each group
+
+
+# ../AnalysisData/tb_men_age_distribution.csv
+This file contains distribution of tuberculosis cases by age amongst men
+
+Variables:
+age - sample patient's age
+0 - amount of cases in each group
+
+
+# ../AnalysisData/tb_women_age_distribution.csv
+This file contains distribution of tuberculosis cases by age amongst women
+
+Variables:
+age - sample patient's age
+0 - amount of cases in each group
+
+All neccessary files, histograms and descriptions are in the final paper file.
